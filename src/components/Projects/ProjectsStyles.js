@@ -10,10 +10,10 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+padding: 0rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -69,10 +69,11 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: rgba(255, 255, 255, 0.75);
   font-style: 2rem;
-  line-height: 24px;
-  text-align: justify;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom:10px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   

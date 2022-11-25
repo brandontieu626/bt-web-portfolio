@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
@@ -11,10 +12,13 @@ const Hero = (props) => (
         Hey, I'm Brandon
       </SectionTitle>
       <SectionText>
-        I'm a software engineer passionate about creating <br/>
-        applications that provide users a great experience. 
+        Welcome to my website! 
       </SectionText>
-      <Button onClick={()=> window.location='https://google.com'}>Learn More</Button>
+      <SectionText>
+        I'm a software engineer passionate about creating applications that provide users a great experience. 
+      </SectionText>
+      <Button><a>Resume</a></Button>
+
     </LeftSection>
   </Section>
 );
