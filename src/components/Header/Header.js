@@ -1,20 +1,26 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub,AiFillLinkedin } from 'react-icons/ai';
-import { DiOpensource } from 'react-icons/di';
+import { DiCompass } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
         <a style={{display: "flex", alignItems:"center",color:'white',marginBottom:'20px'}}>
-          <DiOpensource size="3rem"/>
+          <DiCompass size="3rem"/>
         </a>
       </Link>
     </Div1>
     <Div2>
+      <li>
+        <Link href="#about">
+          <NavLink> About </NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink> Projects </NavLink>
@@ -26,8 +32,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink> About </NavLink>
+        <Link href='#favorites'>
+          <NavLink>Favorites</NavLink>
         </Link>
       </li>
     </Div2>

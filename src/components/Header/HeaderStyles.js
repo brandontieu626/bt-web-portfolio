@@ -8,6 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 3rem;
   padding: 1rem;
   padding-top: 2rem;
+  
 
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -23,6 +24,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  position:fixed;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }

@@ -5,6 +5,7 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
+  margin-bottom:70px;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -105,6 +106,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  text-align:center;
   color: rgba(255, 255, 255, 0.75);
 
 @media ${(props) => props.theme.breakpoints.md} {

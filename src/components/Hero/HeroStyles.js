@@ -15,5 +15,11 @@ export const LeftSection = styled.div`
     flex-direction: column;
 
     margin: 0 auto;
-  }
-`;
+  } 
+`
+export const ResumeLink = styled.a`
+  justify-content:center;
+  color:white;
+  padding: 20px 85px 20px 85px;
+`
+;

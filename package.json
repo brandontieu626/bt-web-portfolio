@@ -15,5 +15,9 @@
     "react-pdf": "^6.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
   }
 }

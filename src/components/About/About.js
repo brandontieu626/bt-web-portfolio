@@ -1,10 +1,10 @@
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './AboutStyles';
-import { Section, SectionDivider, SectionTitle, SectionText, Gri } from '../../styles/GlobalComponents'; 
+import {  GridContainer } from './AboutStyles';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents'; 
 import Profile from './Profile';
 import Description from './Description';
 const About = () => {
   return (
-  <Section nopadding id="about">
+  <Section id="about">
     <SectionDivider/>
     <SectionTitle main> About Me </SectionTitle>
     <GridContainer>

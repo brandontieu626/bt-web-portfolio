@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiPython } from 'react-icons/di';
+import { DiFirebase, DiReact, DiPython } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,20 +9,20 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've had experience with programming with both front-end and backend technologies and am always looking to expand my skillset.<br/>
+      Here is my tech stack! Currently focusing on full-stack development tools and am alway trying to learn more.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem"/>
+        <DiReact size="5rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js
+            React.js, HTML5, and CSS3
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiFirebase size="5rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -31,11 +31,11 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiPython size="3rem"/> 
+        <DiPython size="5rem"/> 
         <ListContainer>
           <ListTitle>Programming Languages</ListTitle>
           <ListParagraph>
-            JavaScript, Python, and Java 
+            JavaScript and Python  
           </ListParagraph>
         </ListContainer>
       </ListItem>
